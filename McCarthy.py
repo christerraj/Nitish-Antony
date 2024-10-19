@@ -4,7 +4,7 @@ GOOGLE_API_KEY = "AIzaSyCrUCzO2suUkeiwLR3NYXG85Erw1X4Zh00"
 genai.configure(api_key=GOOGLE_API_KEY)
 geminiModel = genai.GenerativeModel("gemini-pro")
 chat = geminiModel.start_chat(history=[])
-st.title("McCarty")
+st.title("McCarthy")
 prompt = ""
 if prompt == "":
     pass
